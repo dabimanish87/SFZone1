@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/AttendanceReportTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="#ffffff">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/attendance_report_row_subject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Subject"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:gravity="center"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/attendance_report_row_total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Days"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/attendance_report_row_present"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Present Days"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+        </TableRow>
+</TableLayout>
+
+

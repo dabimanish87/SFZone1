@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ProductReportTitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="15dp"
+    android:layout_marginRight="1dp"
+    android:layout_marginBottom="1dp"
+    android:background="#ffffff">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/product_report_row_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:width="180dp"
+            android:gravity="left"
+            android:text="Name"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/product_report_row_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:width="20dp"
+            android:gravity="left"
+            android:text="Price"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/product_report_row_qty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:width="20dp"
+            android:gravity="left"
+            android:text="Quantity"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+    </TableRow>
+
+</TableLayout>

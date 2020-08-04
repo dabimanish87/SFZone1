@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#008577</color>-->
+    <color name="colorPrimary">#FFED4D</color>
+    <color name="colorPrimaryDark">#00574B</color>
+<!--    <color name="colorPrimaryDark">#000000</color>-->
+    <color name="colorAccent">#D81B60</color>
+    <color name="yellow">#FFED4D</color>
+    <color name="grey">#C4C4C4</color>
+    <color name="grey_for_drawer">#868472</color>
+    <color name="hintColorLightBrown">#8F7676</color>
+    <color name="white">#FFFFFF</color>
+    <color name="font">#FFFFFF</color>
+    <color name="buttonColorBlue">#1E2B3C</color>
+</resources>

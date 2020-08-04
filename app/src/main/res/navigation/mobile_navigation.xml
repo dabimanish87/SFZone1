@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.sfzone.ui.home.HomeFragment"
+        android:label="SF Zone"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_notification"
+        android:name="com.example.sfzone.ui.notification.Notification"
+        android:label="Notification"
+        tools:layout="@layout/notification_fragment" />
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.example.sfzone.ui.setting.Setting"
+        android:label="Setting"
+        tools:layout="@layout/setting_fragment" />
+
+    <fragment
+        android:id="@+id/nav_about_us"
+        android:name="com.example.sfzone.ui.about_us.About_us"
+        android:label="About us"
+        tools:layout="@layout/about_us_fragment" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.sfzone.ui.logout.Logout"
+        android:label="SF Zone"
+        tools:layout="@layout/logout_fragment" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.sfzone.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.sfzone.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+</navigation>

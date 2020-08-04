@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GruhUdhyog">
+
+    <Spinner
+        android:id="@+id/guspinner"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:entries="@array/month_arrays"
+        android:prompt="@string/month_prompt" />
+
+    <Button
+        android:id="@+id/gubtnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center"/>
+
+    <TableLayout
+        android:id="@+id/gureporttable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="80dp"
+        android:background="#f1f1f1">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:width="180dp"
+                android:gravity="left"
+                android:text="Name"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:width="20dp"
+                android:gravity="left"
+                android:text="Price"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:width="20dp"
+                android:gravity="left"
+                android:text="Quantity"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </TableRow>
+    </TableLayout>
+
+    <ListView
+        android:id="@+id/ProductReportListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>
